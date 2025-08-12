@@ -1,0 +1,18 @@
+<suite name = "Functional TestSuite">
+<test name="Application Test">
+
+	<classes>
+	<class name = "com.assessment.interview_assessment.LoginAllUsers"></class>
+	<class name = "com.assessment.interview_assessment.ProductListing"></class>
+	<class name = "com.assessment.interview_assessment.AddToCard"></class>
+	<class name = "com.assessment.interview_assessment.AddTocart_In_ProductdetailsPage"></class>
+	<class name = "com.assessment.interview_assessment.ProductDetailsPage"></class>
+	<class name = "com.assessment.interview_assessment.SortProduct"></class>
+	<class name = "com.assessment.interview_assessment.CheckoutTheProduct"></class>
+	
+
+
+
+	</classes>
+</test>
+</suite>

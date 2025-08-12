@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional TestSuite]">
+  <test thread-count="5" name="Application Test(failed)">
+    <classes>
+      <class name="com.assessment.interview_assessment.PurchaseTheProduct">
+        <methods>
+          <include name="PurchaseAProduct"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.assessment.interview_assessment.PurchaseTheProduct -->
+      <class name="com.assessment.interview_assessment.AddToCard">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAddSingleProductToCart"/>
+        </methods>
+      </class> <!-- com.assessment.interview_assessment.AddToCard -->
+      <class name="com.assessment.interview_assessment.ProductDetailsPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ProductDetailsPage"/>
+        </methods>
+      </class> <!-- com.assessment.interview_assessment.ProductDetailsPage -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Functional TestSuite] -->

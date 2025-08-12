@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T15:49:50 IST" name="Default suite" finished-at="2025-08-12T15:49:59 IST" duration-ms="8870">
+    <groups>
+    </groups>
+    <test started-at="2025-08-12T15:49:50 IST" name="Default test" finished-at="2025-08-12T15:49:59 IST" duration-ms="8870">
+      <class name="com.assessment.interview_assessment.GoRestApiTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.interview_assessment.GoRestApiTests@1c5920df]" started-at="2025-08-12T15:49:50 IST" name="setup" finished-at="2025-08-12T15:49:51 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser()[pri:1, instance:com.assessment.interview_assessment.GoRestApiTests@1c5920df]" started-at="2025-08-12T15:49:51 IST" name="createUser" finished-at="2025-08-12T15:49:56 IST" duration-ms="5170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getUserDetails()[pri:2, instance:com.assessment.interview_assessment.GoRestApiTests@1c5920df]" started-at="2025-08-12T15:49:56 IST" name="getUserDetails" finished-at="2025-08-12T15:49:58 IST" depends-on-methods="com.assessment.interview_assessment.GoRestApiTests.createUser" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetails -->
+        <test-method signature="updateUserDetails()[pri:3, instance:com.assessment.interview_assessment.GoRestApiTests@1c5920df]" started-at="2025-08-12T15:49:58 IST" name="updateUserDetails" finished-at="2025-08-12T15:49:59 IST" depends-on-methods="com.assessment.interview_assessment.GoRestApiTests.getUserDetails" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserDetails -->
+      </class> <!-- com.assessment.interview_assessment.GoRestApiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
